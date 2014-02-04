@@ -44,3 +44,21 @@ Connecting to database specified by database.yml
   [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
   [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140204225957')
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (314.1ms)[0m  DROP DATABASE IF EXISTS "JobSearch_test"
+  [1m[36m (240.6ms)[0m  [1mCREATE DATABASE "JobSearch_test" ENCODING = 'unicode'[0m
+  [1m[35m (8.2ms)[0m  CREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "email" character varying(255), "first_name" character varying(255), "last_name" character varying(255), "password_digest" character varying(255)) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.8ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140204225957')
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (111.9ms)[0m  DROP DATABASE IF EXISTS "JobSearch_test"
+  [1m[36m (234.8ms)[0m  [1mCREATE DATABASE "JobSearch_test" ENCODING = 'unicode'[0m
+  [1m[35m (8.4ms)[0m  CREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "email" character varying(255), "first_name" character varying(255), "last_name" character varying(255), "password_digest" character varying(255)) 
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140204225957')
