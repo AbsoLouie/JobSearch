@@ -1,0 +1,11 @@
+<%= form_for @user do |f| %>
+
+Username: <%= f.text_field :username %>
+Email: <%= f.text_field :email %>
+First name: <%= f.text_field :first_name %>
+Last name: <%= f.text_field :last_name %>
+Password: <%= f.password_field :password %>
+Confirm Password: <%= f.password_field :password_confirmation %>
+<%= f.submit 'Register!' %>
+
+<% end %>
