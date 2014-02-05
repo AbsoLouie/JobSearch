@@ -1,6 +1,13 @@
 require 'spec_helper'
 
 describe SessionsController do
+
+  context '#New' do
+    it 'Renders Sign-In' do
+      get :new
+      response.should render_template :new
+    end
+  end
   
   context '#Create' do
     it 'Starts Session with correct password' do
