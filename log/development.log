@@ -705,3 +705,12 @@ Completed 200 OK in 120.1ms (Views: 4.6ms | ActiveRecord: 5.2ms)
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 16:16:45 -0800
 Served asset /jquery.js - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
