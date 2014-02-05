@@ -9,4 +9,11 @@ describe UsersController do
     end 
   end
 
+  context '#New' do
+    it 'renders view' do
+      get :new
+      response.should render_template :new
+    end
+  end
+
 end
